@@ -1,2 +1,2 @@
-# DayTrade MachineLearning - Data Science (under development)
+# DayTrade ML - Data Science (under development)
 ## Objective
