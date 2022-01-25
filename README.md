@@ -1,7 +1,2 @@
-# DayTrade MachineLearning
-## DayTrade MachineLearning
-### DayTrade MachineLearning
-#### DayTrade MachineLearning
-
-
-Test
+# DayTrade MachineLearning using Data Science (under development)
+## Objective
