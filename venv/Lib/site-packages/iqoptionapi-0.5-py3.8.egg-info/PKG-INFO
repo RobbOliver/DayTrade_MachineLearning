@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: iqoptionapi
+Version: 0.5
+Summary: The python wrapper for IQ Option API.
+Home-page: https://github.com/n1nj4z33/iqoptionapi
+Author: n1nj4z33
+Author-email: n1nj4z33@gmail.com
+License: UNKNOWN
+Description: The python wrapper IQ Option API.
+Platform: UNKNOWN
