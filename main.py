@@ -1,5 +1,5 @@
 from iqoptionapi.stable_api import IQ_Option
-# from time import sleep
+from tools import sleepTo
 import pandas as pd
 import time
 
@@ -15,22 +15,6 @@ if check is False:
 
 # Settings default
 I_want_money.change_balance('PRACTICE')  # PRACTICE / REAL
-
-
-def sleepTo(s, show=True): 
-    while True:
-        showHr = time.localtime(time.time())
-        if showHr[5] == s:
-            return True
-        else:
-            if show is True:
-                print(f'[{showHr[5]}]', end='\r')
-            else:
-                pass
-            time.sleep(1)
-
-
-sleepTo(5)
 
 
 # Main program

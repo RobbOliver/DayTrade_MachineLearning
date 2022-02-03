@@ -1,5 +1,7 @@
 from time import time
 
+# Func to System
+
 def sleepTo(s, show=True): 
     while True:
         showHr = time.localtime(time.time())
