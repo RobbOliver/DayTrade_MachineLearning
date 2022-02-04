@@ -1,3 +1,4 @@
+from typing import List
 import requests
 from bs4 import BeautifulSoup
 
@@ -14,17 +15,17 @@ def investInd(ativo):
     soup = BeautifulSoup(html.content, "html.parser")
 
     ttabela_bruta = soup.find('table', class_='datatable_table__2Qbdw datatable_table--border__1hROx datatable_table--freeze-column__2e8u1')
-    tabela_ = ttabela_bruta.find_all('tr', class_='datatable_row__2vgJl')
+    ttabela_ = ttabela_bruta.find_all('tr', class_='datatable_row__2vgJl')
 
-    Indc = ['Compra Forte', 'Compra', 'Neutro', 'Venda', 'Venda Forte']
+    list_indic = []
 
-    for item in tabela_:
-        for ind in item:
-            print(ind.text.split('\n'))
+    # Convert to a List
+    for item_tabela in ttabela_:
+        for item_ in item_tabela:
+            list_indic.append(item_.text)
 
-    # for item in ttabela_bruta:
-    #     print(item.text)
-
-    #return ttabela_bruta.text
+    del(list_indic[0:6]) # Clean the data
+        
+    print(list_indic)
 
 print(investInd('EURUSD'))

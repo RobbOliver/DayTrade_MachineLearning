@@ -1,5 +1,5 @@
 from iqoptionapi.stable_api import IQ_Option
-from tools import sleepTo
+# from tools import sleepTo
 import pandas as pd
 import time
 
