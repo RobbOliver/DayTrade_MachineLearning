@@ -36,5 +36,3 @@ def investInd(ativo):
     del(list_indic[0:6]) # Clean the data
 
     return list_indic
-
-print(investInd('EURUSD'))
