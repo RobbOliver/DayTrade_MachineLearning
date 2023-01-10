@@ -1,4 +1,4 @@
-# DayTrade ML - Data Science (under development)
+# DayTrade ML - Data Science (Dropped)
 ## Objective
 I'm using IQ OPTION plataform to get data and trade, the goal is get at least 51% accuracy in predictions.
 
